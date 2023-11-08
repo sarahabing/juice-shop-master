@@ -1,10 +1,5 @@
 import confetti from 'canvas-confetti'
-const username = "test"
-const password = "abcd@1234"
 
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => console.log(password))
 const timeout = (ms: number) => {
     return new Promise((resolve,reject) => {
         setTimeout(resolve,ms)
