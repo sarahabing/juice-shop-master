@@ -1,5 +1,7 @@
 import confetti from 'canvas-confetti'
-
+const username = "test"
+const password = "abcd@1234"
+console.log("password ", password)
 const timeout = (ms: number) => {
     return new Promise((resolve,reject) => {
         setTimeout(resolve,ms)
